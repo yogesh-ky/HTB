@@ -1,0 +1,17 @@
+Steps Done:
+
+nmap done on target : nmap -p- 10.129.84.216 -T5 
+
+Found: 6379/tcp open Redis
+
+Connecting to redis server:
+
+redis-cli -h 10.129.84.216
+
+Connected to redis server : 10.129.84.216:6379>
+
+Once Connected use 'info' command to view information and stats about the redis server
+
+'select' command used to select a database
+
+
